@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link href="https://cdn.jsdelivr.net/npm/material-icons@1.13.14/iconfont/material-icons.min.css"
+      rel="stylesheet">
+      
+<link href="scss/style.css"
+      rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      rel="stylesheet">
+</head>
+<body>
+
+
+    <header class="header">
+
+
+
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="contact-info">
+                <span><i class="fa-solid fa-phone"></i> +1 (232) 329–6447</span>
+                <span><i class="fa-solid fa-envelope"></i> info@demolink.org</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <!-- Brand / Logo (Optional placeholder) -->
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+
+            <!-- Hamburger Toggle Button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Navigation Menu -->
+            <nav class="nav-menu" id="nav-menu">
+              <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html"  >About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="cases.html" class="active">Cases</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-action">
+                    <a href="#" class="btn-appointment">Appointment</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<section class="caseswrapper">
+<!-- Navigation Bar -->
+  
+<!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content fade-in">
+            <h1>Notable Cases & Precedents</h1>
+            <p>A track record of handling high-stakes litigation, complex trials, and favorable judicial precedents.</p>
+        </div>
+    </section>
+
+    <!-- Search & Category Filters -->
+    <div class="controls-container">
+        <div class="search-filter-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Search cases by title, court, or keywords...">
+        </div>
+        <div class="category-filters" id="categoryFilters">
+            <button class="filter-btn active" data-filter="all">All Cases</button>
+            <button class="filter-btn" data-filter="civil">Civil Litigation</button>
+            <button class="filter-btn" data-filter="criminal">Criminal Defense</button>
+            <button class="filter-btn" data-filter="corporate">Corporate</button>
+            <button class="filter-btn" data-filter="constitutional">Constitutional</button>
+        </div>
+    </div>
+
+    <!-- Main Cases Grid -->
+    <div class="container">
+        <div class="cases-grid" id="casesGrid">
+            
+            <!-- Case 1 -->
+            <div class="case-card" data-category="civil" data-keywords="property title dispute high court injunction recovery">
+                <div class="case-content">
+                    <span class="case-tag">Civil Litigation</span>
+                    <h3>Landmark Commercial Property Title Dispute</h3>
+                    <div class="case-citation"><i class="fas fa-landmark"></i> High Court of Judicature • 2025</div>
+                    <p>Successfully defended commercial land rights against complex multiple claims, securing a permanent injunction and establishing clear title precedent.</p>
+                    <ul class="case-meta">
+                        <li><span>Outcome:</span> <span>Favorable Decree</span></li>
+                        <li><span>Client Role:</span> <span>Defendants / Respondents</span></li>
+                    </ul>
+                </div>
+                <div class="case-footer">
+                    <span>Ref: CS/402/2024</span>
+                    <a href="#" class="view-btn">Case Brief <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Case 2 -->
+            <div class="case-card" data-category="criminal" data-keywords="criminal defense bail anticipatory quashing trial">
+                <div class="case-content">
+                    <span class="case-tag">Criminal Defense</span>
+                    <h3>Anticipatory Bail & Quashing of False FIR</h3>
+                    <div class="case-citation"><i class="fas fa-gavel"></i> Sessions & High Court • 2025</div>
+                    <p>Secured anticipatory protection followed by the complete quashing of malicious criminal proceedings initiated under corporate contract disputes.</p>
+                    <ul class="case-meta">
+                        <li><span>Outcome:</span> <span>FIR Quashed u/s 482</span></li>
+                        <li><span>Client Role:</span> <span>Petitioners</span></li>
+                    </ul>
+                </div>
+                <div class="case-footer">
+                    <span>Ref: Cri.WP/1109/2025</span>
+                    <a href="#" class="view-btn">Case Brief <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Case 3 -->
+            <div class="case-card" data-category="corporate" data-keywords="corporate commercial shareholder dispute arbitration">
+                <div class="case-content">
+                    <span class="case-tag">Corporate</span>
+                    <h3>High-Stakes Shareholder Deadlock & Arbitration</h3>
+                    <div class="case-citation"><i class="fas fa-handshake"></i> Arbitral Tribunal • 2024</div>
+                    <p>Represented founding partners in a complex corporate control dispute, achieving an amicable buyout and business restructuring settlement.</p>
+                    <ul class="case-meta">
+                        <li><span>Outcome:</span> <span>Settled via Arbitration</span></li>
+                        <li><span>Client Role:</span> <span>Managing Partners</span></li>
+                    </ul>
+                </div>
+                <div class="case-footer">
+                    <span>Ref: Arb.Ref/88/2024</span>
+                    <a href="#" class="view-btn">Case Brief <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Case 4 -->
+            <div class="case-card" data-category="constitutional" data-keywords="constitutional writ petition fundamental rights employment">
+                <div class="case-content">
+                    <span class="case-tag">Constitutional</span>
+                    <h3>Writ Petition Against Arbitrary State Action</h3>
+                    <div class="case-citation"><i class="fas fa-landmark"></i> High Court Appellate Side • 2024</div>
+                    <p>Challenged arbitrary executive cancellation of industrial licenses through a writ of mandamus, restoring operations and upholding natural justice.</p>
+                    <ul class="case-meta">
+                        <li><span>Outcome:</span> <span>Writ Allowed with Costs</span></li>
+                        <li><span>Client Role:</span> <span>Industrial Enterprise</span></li>
+                    </ul>
+                </div>
+                <div class="case-footer">
+                    <span>Ref: Writ Petition No. 2041</span>
+                    <a href="#" class="view-btn">Case Brief <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Case 5 -->
+            <div class="case-card" data-category="civil" data-keywords="money recovery commercial arbitration breach of contract">
+                <div class="case-content">
+                    <span class="case-tag">Civil Litigation</span>
+                    <h3>Multi-Crore Commercial Recovery Execution</h3>
+                    <div class="case-citation"><i class="fas fa-balance-scale"></i> Commercial Court • 2023</div>
+                    <p>Enforced foreign and domestic arbitral awards through aggressive execution proceedings, recovering outstanding contractual dues.</p>
+                    <ul class="case-meta">
+                        <li><span>Outcome:</span> <span>Full Award Recovered</span></li>
+                        <li><span>Client Role:</span> <span>Decree Holder</span></li>
+                    </ul>
+                </div>
+                <div class="case-footer">
+                    <span>Ref: Comm.Ex/12/2023</span>
+                    <a href="#" class="view-btn">Case Brief <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Case 6 -->
+            <div class="case-card" data-category="criminal" data-keywords="criminal defense trial acquittal white collar">
+                <div class="case-content">
+                    <span class="case-tag">Criminal Defense</span>
+                    <h3>White Collar Defense & Full Trial Acquittal</h3>
+                    <div class="case-citation"><i class="fas fa-gavel"></i> Special Sessions Court • 2023</div>
+                    <p>Conducted meticulous cross-examinations and evidence analysis leading to a complete honorable acquittal in a complex financial trial.</p>
+                    <ul class="case-meta">
+                        <li><span>Outcome:</span> <span>Honorable Acquittal</span></li>
+                        <li><span>Client Role:</span> <span>Accused / Defense</span></li>
+                    </ul>
+                </div>
+                <div class="case-footer">
+                    <span>Ref: Spl.Case/05/2022</span>
+                    <a href="#" class="view-btn">Case Brief <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Fallback No Results Box -->
+            <div class="no-results" id="noResults">
+                <i class="fas fa-search-minus"></i>
+                <h3>No matching cases found</h3>
+                <p>Try refining your search terms or selecting a different category filter.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Call to Action Strip -->
+    <section class="cta-strip">
+        <h2>Facing a Similar Legal Challenge?</h2>
+        <p>Leverage proven strategy and thorough courtroom experience to protect your rights.</p>
+        <a href="#contact" class="btn">Consult on Your Case</a>
+    </section>
+</section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <!-- Column 1: Brand & About -->
+                <div class="footer-col brand-col">
+                    <a href="#" class="footer-logo">Logo</a>
+                    <p>Providing expert legal representation, comprehensive counsel, and strategic litigation solutions across multiple spheres of law for over two decades.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col links-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Cases</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Practice Areas -->
+                <div class="footer-col links-col">
+                    <h3>Practice Areas</h3>
+                    <ul>
+                        <li><a href="#">Family Law</a></li>
+                        <li><a href="#">Criminal Law</a></li>
+                        <li><a href="#">Civil Litigation</a></li>
+                        <li><a href="#">Business Law</a></li>
+                        <li><a href="#">Real Estate Law</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact Info -->
+                <div class="footer-col contact-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>123 Legal Avenue, Suite 400, New York, NY</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1 (232) 329–6447</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@demolink.org</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 [Name]. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
+const hamburgerIcon = hamburger.querySelector('i');
+
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    
+    // Toggle between hamburger bars and 'X' close icon
+    if (navMenu.classList.contains('active')) {
+        hamburgerIcon.classList.remove('fa-bars');
+        hamburgerIcon.classList.add('fa-xmark');
+    } else {
+        hamburgerIcon.classList.remove('fa-xmark');
+        hamburgerIcon.classList.add('fa-bars');
+    }
+});
+// Select all the cards in the grid
+const cards = document.querySelectorAll('.practice-card');
+
+cards.forEach(card => {
+    card.addEventListener('click', () => {
+        // Remove 'active' class from all cards
+        cards.forEach(c => c.classList.remove('active'));
+        
+        // Add 'active' class to the clicked card
+        card.classList.add('active');
+    });
+});
+
+// Interactive load animation and intersection effects
+document.addEventListener('DOMContentLoaded', () => {
+    const section = document.querySelector('.about-section');
+    
+    // Smooth fade-in transition when scrolled into view
+    const observer = new IntersectionObserver((entries, observerInstance) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+                observerInstance.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    section.style.opacity = '0';
+    section.style.transform = 'translateY(25px)';
+    section.style.transition = 'opacity 0.9s ease-out, transform 0.9s ease-out';
+    
+    observer.observe(section);
+});
+
+
+// Animated Number Counters on Scroll / Load
+document.addEventListener('DOMContentLoaded', () => {
+    const counters = document.querySelectorAll('.counter');
+    let animated = false;
+
+    function runCounters() {
+        counters.forEach(counter => {
+            const target = +counter.getAttribute('data-target');
+            let count = 0;
+            const speed = target / 50; // Adjust count speed here
+
+            function updateCount() {
+                count += speed;
+                if (count < target) {
+                    counter.innerText = Math.ceil(count);
+                    setTimeout(updateCount, 30);
+                } else {
+                    counter.innerText = target;
+                }
+            }
+            updateCount();
+        });
+    }
+
+    // Trigger animation when the section enters the viewport
+    const section = document.querySelector('.experience-section');
+    
+    const observer = new IntersectionObserver((entries, observerInstance) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !animated) {
+                runCounters();
+                animated = true;
+                observerInstance.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.3 });
+
+    observer.observe(section);
+});
+
+// Interactive enhancements for smooth transitions and event tracking
+document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.service-card');
+
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.15)';
+        });
+
+        card.addEventListener('mouseleave', () => {
+            card.style.boxShadow = 'none';
+        });
+    });
+});
+
+// Testimonial Swapper Logic with Auto-Play & Dot Navigation
+document.addEventListener('DOMContentLoaded', () => {
+    const slides = document.querySelectorAll('.testimonial-slide');
+    const dots = document.querySelectorAll('.dot');
+    let currentIndex = 0;
+    let slideInterval;
+    const intervalTime = 6000; // Time per slide in milliseconds
+
+    function goToSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            dots[i].classList.remove('active');
+        });
+
+        currentIndex = (index + slides.length) % slides.length;
+        
+        slides[currentIndex].classList.add('active');
+        dots[currentIndex].classList.add('active');
+    }
+
+    function nextSlide() {
+        goToSlide(currentIndex + 1);
+    }
+
+    function startAutoSlide() {
+        slideInterval = setInterval(nextSlide, intervalTime);
+    }
+
+    function stopAutoSlide() {
+        clearInterval(slideInterval);
+    }
+
+    // Dot click listeners
+    dots.forEach((dot) => {
+        dot.addEventListener('click', (e) => {
+            const index = parseInt(e.target.getAttribute('data-index'));
+            goToSlide(index);
+            stopAutoSlide();
+            startAutoSlide();
+        });
+    });
+
+    // Pause auto-sliding on mouse hover
+    const section = document.querySelector('.testimonial-section');
+    section.addEventListener('mouseenter', stopAutoSlide);
+    section.addEventListener('mouseleave', startAutoSlide);
+
+    // Initialize auto-play rotation
+    startAutoSlide();
+});
+
+// Contact Form Submission Handling & Validation Feedback
+document.addEventListener('DOMContentLoaded', () => {
+    const contactForm = document.getElementById('contactForm');
+
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        // Simple collection demonstration
+        const formData = {
+            firstName: document.getElementById('firstName').value,
+            lastName: document.getElementById('lastName').value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+            subject: document.getElementById('subject').value,
+            company: document.getElementById('company').value,
+            message: document.getElementById('message').value
+        };
+
+        // Confirmation feedback simulation
+        const submitBtn = contactForm.querySelector('.btn-submit');
+        const originalText = submitBtn.innerText;
+        
+        submitBtn.innerText = 'Sending...';
+        submitBtn.style.opacity = '0.8';
+
+        setTimeout(() => {
+            submitBtn.innerText = 'Success!';
+            submitBtn.style.backgroundColor = '#0e3b43';
+            
+            // Reset form after brief delay
+            setTimeout(() => {
+                contactForm.reset();
+                submitBtn.innerText = originalText;
+                submitBtn.style.backgroundColor = '#b29463';
+                submitBtn.style.opacity = '1';
+            }, 2000);
+        }, 1000);
+    });
+});
+
+
+</script>
+<script>
+        // 1. Mobile Responsive Navigation Toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileMenu.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // 2. Filtering and Search Logic
+        const searchInput = document.getElementById('searchInput');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const caseCards = document.querySelectorAll('.case-card');
+        const noResults = document.getElementById('noResults');
+
+        let currentCategory = 'all';
+        let currentSearchQuery = '';
+
+        function filterCases() {
+            let visibleCount = 0;
+
+            caseCards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                const keywords = card.getAttribute('data-keywords') || '';
+                const textContent = card.innerText.toLowerCase();
+
+                const matchesCategory = (currentCategory === 'all' || category === currentCategory);
+                const matchesSearch = (keywords.includes(currentSearchQuery) || textContent.includes(currentSearchQuery));
+
+                if (matchesCategory && matchesSearch) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Toggle No Results display
+            if (visibleCount === 0) {
+                noResults.style.display = 'block';
+            } else {
+                noResults.style.display = 'none';
+            }
+        }
+
+        // Event listener for category pill buttons
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                currentCategory = button.getAttribute('data-filter');
+                filterCases();
+            });
+        });
+
+        // Event listener for search input
+        searchInput.addEventListener('input', (e) => {
+            currentSearchQuery = e.target.value.toLowerCase().trim();
+            filterCases();
+        });
+    </script>

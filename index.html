@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link href="https://cdn.jsdelivr.net/npm/material-icons@1.13.14/iconfont/material-icons.min.css"
+      rel="stylesheet">
+      
+<link href="scss/style.css"
+      rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      rel="stylesheet">
+</head>
+    
+    </head>
+<body>
+
+
+    <header class="header">
+
+
+
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="contact-info">
+                <span><i class="fa-solid fa-phone"></i> +1 (232) 329–6447</span>
+                <span><i class="fa-solid fa-envelope"></i> info@demolink.org</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <!-- Brand / Logo (Optional placeholder) -->
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+
+            <!-- Hamburger Toggle Button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Navigation Menu -->
+             <div class="navbar-menu">
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="cases.html">Cases</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-action">
+                    <a href="#" class="btn-appointment">Appointment</a>
+                </div>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+
+<!-- Hero Banner Slider -->
+    <section class="banner-slider">
+        <div class="slider-container" id="sliderContainer">
+            
+            <!-- Slide 1 -->
+            <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/banner.png');">
+                <div class="slide-content">
+                    <span class="sub-heading">Utilizing Our Expertise</span>
+                    <h1>Comprehensive Legal Representation</h1>
+                    <p>We have years of experience in providing legal help in various spheres of law.</p>
+                    <a href="#" class="btn-read-more">Read more</a>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('img/banner-1.jpg');">
+                <div class="slide-content">
+                    <span class="sub-heading">Dedicated Support</span>
+                    <h1>Protecting Your Business Interests</h1>
+                    <p>Delivering strategic legal solutions tailored to achieve your corporate goals.</p>
+                    <a href="#" class="btn-read-more">Read more</a>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/banner-2.jpg');">
+                <div class="slide-content">
+                    <span class="sub-heading">Trusted Counsel</span>
+                    <h1>Your Partners In Justice</h1>
+                    <p>Committed to standing by your side through every legal challenge.</p>
+                    <a href="#" class="btn-read-more">Read more</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Slider Navigation Arrows -->
+        <button class="slider-btn prev-btn" id="prevBtn" aria-label="Previous Slide">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="slider-btn next-btn" id="nextBtn" aria-label="Next Slide">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <!-- Slider Dots Pagination -->
+        <div class="slider-dots" id="sliderDots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+    </section>
+
+   <!-- services -->
+
+<section class="practice-section services-section">
+        <div class="container">
+            <div class="cards-grid" id="cardsGrid">
+                
+                <!-- Card 1 (Active by default) -->
+                <div class="practice-card active" tabindex="0">
+                    <div class="card-icon">
+                       <img src="img/balance.svg" alt=""  width="38px" >
+                    </div>
+                    <h3>Business Law</h3>
+                    <p>Dictates the legal structure of a company—such as sole proprietorships, partnerships, Limited Liability Companies (LLCs), or corporation</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="practice-card" tabindex="0">
+                    <div class="card-icon">
+                     <img src="img/diversity_3.svg" width="38px" alt="">
+                    </div>
+                    <h3>Family Law</h3>
+                    <p>Family law is a legal practice area focused on domestic relationships, family matters, and related legal issues. It provides the legal framework for resolving disputes</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="practice-card" tabindex="0">
+                    <div class="card-icon">
+                  <img src="img/account_balance.svg" alt=""  width="38px" >
+                    </div>
+                    <h3>Civil Litigation</h3>
+                    <p>Civil litigation is the legal process used to resolve non-criminal disputes between individuals, businesses, or entities. Unlike criminal law, which deals with offenses against the state, civil litigation focuses on resolving</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutmain">
+<div class="about-section">
+        <div class="container">
+            <!-- Section Title Header -->
+            <div class="section-header">
+                <h2>About Me</h2>
+            </div>
+
+            <!-- Content Grid Layout -->
+            <div class="about-grid">
+                <!-- Left Column: Typography & Content -->
+                <div class="about-text">
+                    <h3>Synonyms for a Law Book</h3>
+                    <p>If you mean "law in books" (a well-known legal concept introduced by jurist Roscoe Pound), it refers to the formal rules, statutes, and legal doctrines as they are officially written down in texts, codes, and court reports—contrasted with how laws are actually applied in real life ("law in action").</p>
+                    <p>Rather than browsing general literature, enforcement agencies and legal practitioners consult the official statute book or legislative code. This structured compilation contains the codified laws, regulations, and ordinances enacted by governing bodies, ensuring that legal professionals always reference binding, written rules.</p>
+                </div>
+
+                <!-- Right Column: Image with Teal Offset Backdrop -->
+                <div class="about-image-wrapper">
+                    <div class="teal-backdrop"></div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1000&q=80" alt="Legal Advice Computer Setup">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <section class="experience-section">
+        <div class="container">
+            <!-- Header Text Content -->
+            <div class="experience-header">
+                <h2>20 Years Of Experience In Various Cases</h2>
+                <p>With 20 years of comprehensive experience managing a wide-ranging portfolio of complex and high-stakes cases, [Name] has established a proven track record of delivering strategic solutions and optimal outcomes.</p>
+            </div>
+
+            <!-- 4-Column Metrics Grid -->
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <span class="counter" data-target="1978">0</span><span class="plus">+</span>
+                    <p>company established</p>
+                </div>
+                <div class="metric-item">
+                    <span class="counter" data-target="1178">0</span><span class="plus">+</span>
+                    <p>Cases Won</p>
+                </div>
+                <div class="metric-item">
+                    <span class="counter" data-target="45">0</span><span class="plus">+</span>
+                    <p>Business Partners</p>
+                </div>
+                <div class="metric-item">
+                    <span class="counter" data-target="965">0</span><span class="plus">+</span>
+                    <p>Trusting Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- services -->
+     <section class="services-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2>Services</h2>
+                <h3>Professional & Legal Context</h3>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services-grid">
+                
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <h4>Family Low</h4>
+                    <p>Backed by two decades of courtroom advocacy, [Name] stands ready to fight for clients in any family law matter against any opposing advocate. Specializing in high-conflict divorces and complex custody disputes over the last 20 years, [Name] delivers uncompromising legal representation, strategic negotiation, and fierce litigation when the situation demands it.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <h4>Criminal Law</h4>
+                    <p>Seasoned Criminal Defense Litigator with 20 years of expertise navigating intricate and high-pressure criminal cases. Unflinching under pressure and fully equipped to take on any prosecution against any adversary. Combines deep procedural knowledge, fierce courtroom presence, and sharp investigative insight to handle serious charges with absolute precision, determination, and unwavering dedication to justice.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <h4>Civil Law</h4>
+                    <p>With 20 years of extensive experience navigating complex civil litigation and dispute resolution, [Name] brings seasoned expertise and strategic foresight to every case. Backed by two decades in the courtroom, [Name] is fully prepared to litigate any civil dispute against any opposing counsel—whether handling intricate property disputes, contractual breaches, tort claims, or commercial disagreements. Known for a rigorous analytical approach and tenaciou</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <h4>Education Law</h4>
+                    <p>Backed by two decades of legal advocacy, [Name] stands ready to fight for clients in any education law matter against any opposing counsel. Specializing in high-conflict school district disputes, student rights, and complex institutional litigation over the last 20 years, [Name] delivers uncompromising legal representation, strategic foresight, and fierce defense to ensure justice and protect academic futures.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="service-card">
+                    <h4>Cases Successions</h4>
+                    <p>Seasoned Succession and Estate Litigator with 20 years of expertise resolving diverse and high-stakes inheritance disputes. Unflinching in legal battles and fully equipped to take on any succession case against any adversary. Combines deep knowledge of succession acts, probate laws, and property rights with sharp strategic insight to handle complex will challenges, trust disputes, and partition suits with absolute precision and dedication.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="service-card">
+                    <h4>Real Estate law</h4>
+                    <p>Backed by two decades of courtroom advocacy, [Name] stands ready to fight for clients in any real estate law matter against any opposing advocate. Specializing in high-conflict property litigation, disputed land titles, and complex commercial real estate disputes over the last 20 years, [Name] delivers uncompromising legal representation, strategic foresight, and fierce litigation to protect your investments and property assets.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section Banner -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="testimonial-slider" id="testimonialSlider">
+                
+                <!-- Slide 1 -->
+                <div class="testimonial-slide active">
+                    <h2>For Corporate / Business Law</h2>
+                    <div class="author-img-placeholder"></div>
+                    <p>Backed by two decades of courtroom advocacy, [Name] stands ready to fight for clients in any real estate law matter against any opposing advocate. Specializing in high-conflict property litigation, disputed land titles, and complex commercial real estate.</p>
+                    <div class="author-details">
+                        <h3>Name: </h3>
+                        <span>Advocate</span>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="testimonial-slide">
+                    <h2>For Family Law & Divorce Cases</h2>
+                    <div class="author-img-placeholder"></div>
+                    <p>Navigating family disputes requires a delicate balance of compassion and fierce advocacy. [Name] delivers structured guidance and unyielding defense to protect your rights, asset divisions, and child custody arrangements seamlessly.</p>
+                    <div class="author-details">
+                        <h3>Name: </h3>
+                        <span>Advocate</span>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="testimonial-slide">
+                    <h2>For Civil Litigation Matters</h2>
+                    <div class="author-img-placeholder"></div>
+                    <p>With an aggressive analytical approach to contract breaches and complex tort claims, every legal strategy is tailored to secure optimal settlements and protect your long-term business or personal interests in court.</p>
+                    <div class="author-details">
+                        <h3>Name: </h3>
+                        <span>Advocate</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Pagination Dots -->
+            <div class="testimonial-dots" id="testimonialDots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact form -->
+
+
+    <section class="contact-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="contact-header">
+                <div class="header-line"></div>
+                <h2>Contact Form</h2>
+            </div>
+
+            <!-- Form Container -->
+            <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="firstName" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="lastName" placeholder="Last Name" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" placeholder="Company Name">
+                    </div>
+                </div>
+
+                <div class="form-row full-width">
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn-submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <!-- Column 1: Brand & About -->
+                <div class="footer-col brand-col">
+                    <a href="#" class="footer-logo">Logo</a>
+                    <p>Providing expert legal representation, comprehensive counsel, and strategic litigation solutions across multiple spheres of law for over two decades.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col links-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Cases</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Practice Areas -->
+                <div class="footer-col links-col">
+                    <h3>Practice Areas</h3>
+                    <ul>
+                        <li><a href="#">Family Law</a></li>
+                        <li><a href="#">Criminal Law</a></li>
+                        <li><a href="#">Civil Litigation</a></li>
+                        <li><a href="#">Business Law</a></li>
+                        <li><a href="#">Real Estate Law</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact Info -->
+                <div class="footer-col contact-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>123 Legal Avenue, Suite 400, New York, NY</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1 (232) 329–6447</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@demolink.org</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 [Name]. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
+const hamburgerIcon = hamburger.querySelector('i');
+
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    
+    // Toggle between hamburger bars and 'X' close icon
+    if (navMenu.classList.contains('active')) {
+        hamburgerIcon.classList.remove('fa-bars');
+        hamburgerIcon.classList.add('fa-xmark');
+    } else {
+        hamburgerIcon.classList.remove('fa-xmark');
+        hamburgerIcon.classList.add('fa-bars');
+    }
+});
+// Select all the cards in the grid
+const cards = document.querySelectorAll('.practice-card');
+
+cards.forEach(card => {
+    card.addEventListener('click', () => {
+        // Remove 'active' class from all cards
+        cards.forEach(c => c.classList.remove('active'));
+        
+        // Add 'active' class to the clicked card
+        card.classList.add('active');
+    });
+});
+
+// Interactive load animation and intersection effects
+document.addEventListener('DOMContentLoaded', () => {
+    const section = document.querySelector('.about-section');
+    
+    // Smooth fade-in transition when scrolled into view
+    const observer = new IntersectionObserver((entries, observerInstance) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+                observerInstance.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    section.style.opacity = '0';
+    section.style.transform = 'translateY(25px)';
+    section.style.transition = 'opacity 0.9s ease-out, transform 0.9s ease-out';
+    
+    observer.observe(section);
+});
+
+
+// Animated Number Counters on Scroll / Load
+document.addEventListener('DOMContentLoaded', () => {
+    const counters = document.querySelectorAll('.counter');
+    let animated = false;
+
+    function runCounters() {
+        counters.forEach(counter => {
+            const target = +counter.getAttribute('data-target');
+            let count = 0;
+            const speed = target / 50; // Adjust count speed here
+
+            function updateCount() {
+                count += speed;
+                if (count < target) {
+                    counter.innerText = Math.ceil(count);
+                    setTimeout(updateCount, 30);
+                } else {
+                    counter.innerText = target;
+                }
+            }
+            updateCount();
+        });
+    }
+
+    // Trigger animation when the section enters the viewport
+    const section = document.querySelector('.experience-section');
+    
+    const observer = new IntersectionObserver((entries, observerInstance) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !animated) {
+                runCounters();
+                animated = true;
+                observerInstance.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.3 });
+
+    observer.observe(section);
+});
+
+// Interactive enhancements for smooth transitions and event tracking
+document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.service-card');
+
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.15)';
+        });
+
+        card.addEventListener('mouseleave', () => {
+            card.style.boxShadow = 'none';
+        });
+    });
+});
+
+// Testimonial Swapper Logic with Auto-Play & Dot Navigation
+document.addEventListener('DOMContentLoaded', () => {
+    const slides = document.querySelectorAll('.testimonial-slide');
+    const dots = document.querySelectorAll('.dot');
+    let currentIndex = 0;
+    let slideInterval;
+    const intervalTime = 6000; // Time per slide in milliseconds
+
+    function goToSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            dots[i].classList.remove('active');
+        });
+
+        currentIndex = (index + slides.length) % slides.length;
+        
+        slides[currentIndex].classList.add('active');
+        dots[currentIndex].classList.add('active');
+    }
+
+    function nextSlide() {
+        goToSlide(currentIndex + 1);
+    }
+
+    function startAutoSlide() {
+        slideInterval = setInterval(nextSlide, intervalTime);
+    }
+
+    function stopAutoSlide() {
+        clearInterval(slideInterval);
+    }
+
+    // Dot click listeners
+    dots.forEach((dot) => {
+        dot.addEventListener('click', (e) => {
+            const index = parseInt(e.target.getAttribute('data-index'));
+            goToSlide(index);
+            stopAutoSlide();
+            startAutoSlide();
+        });
+    });
+
+    // Pause auto-sliding on mouse hover
+    const section = document.querySelector('.testimonial-section');
+    section.addEventListener('mouseenter', stopAutoSlide);
+    section.addEventListener('mouseleave', startAutoSlide);
+
+    // Initialize auto-play rotation
+    startAutoSlide();
+});
+
+// Contact Form Submission Handling & Validation Feedback
+document.addEventListener('DOMContentLoaded', () => {
+    const contactForm = document.getElementById('contactForm');
+
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        // Simple collection demonstration
+        const formData = {
+            firstName: document.getElementById('firstName').value,
+            lastName: document.getElementById('lastName').value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+            subject: document.getElementById('subject').value,
+            company: document.getElementById('company').value,
+            message: document.getElementById('message').value
+        };
+
+        // Confirmation feedback simulation
+        const submitBtn = contactForm.querySelector('.btn-submit');
+        const originalText = submitBtn.innerText;
+        
+        submitBtn.innerText = 'Sending...';
+        submitBtn.style.opacity = '0.8';
+
+        setTimeout(() => {
+            submitBtn.innerText = 'Success!';
+            submitBtn.style.backgroundColor = '#0e3b43';
+            
+            // Reset form after brief delay
+            setTimeout(() => {
+                contactForm.reset();
+                submitBtn.innerText = originalText;
+                submitBtn.style.backgroundColor = '#b29463';
+                submitBtn.style.opacity = '1';
+            }, 2000);
+        }, 1000);
+    });
+});
+
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const sliderContainer = document.querySelector(".banner-slider");
+    
+    let currentIndex = 0;
+    let autoSlideInterval;
+    const intervalTime = 5000; // 5 seconds
+
+    // Function to change slide
+    function goToSlide(index) {
+        // Handle boundaries first
+        if (index >= slides.length) {
+            currentIndex = 0;
+        } else if (index < 0) {
+            currentIndex = slides.length - 1;
+        } else {
+            currentIndex = index;
+        }
+
+        // Remove active class from all slides and dots
+        slides.forEach((slide) => slide.classList.remove("active"));
+        dots.forEach((dot) => dot.classList.remove("active"));
+
+        // Add active class to current slide and dot
+        slides[currentIndex].classList.add("active");
+        dots[currentIndex].classList.add("active");
+    }
+
+    // Navigation helpers
+    const nextSlide = () => goToSlide(currentIndex + 1);
+    const prevSlide = () => goToSlide(currentIndex - 1);
+
+    // Auto Slide functionality
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(nextSlide, intervalTime);
+    }
+
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        startAutoSlide();
+    }
+
+    // Event Listeners
+    nextBtn.addEventListener("click", () => {
+        nextSlide();
+        resetAutoSlide();
+    });
+
+    prevBtn.addEventListener("click", () => {
+        prevSlide();
+        resetAutoSlide();
+    });
+
+    dots.forEach((dot) => {
+        dot.addEventListener("click", function () {
+            const slideIndex = parseInt(this.getAttribute("data-index"), 10);
+            goToSlide(slideIndex);
+            resetAutoSlide();
+        });
+    });
+
+    // Pause on hover
+    sliderContainer.addEventListener("mouseenter", () => clearInterval(autoSlideInterval));
+    sliderContainer.addEventListener("mouseleave", startAutoSlide);
+
+    // Initialize auto-play
+    startAutoSlide();
+});
+</script>
